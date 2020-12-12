@@ -1,0 +1,33 @@
+/* mobile LAST - Standard Styling */
+* {
+  background-color: #f5faf1;
+  margin: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group {
+  margin: 1rem;
+}
+
+@media (min-width: 400px) {
+  #inputFirstname {
+    width: 330px;
+  }
+}
+
+@media (min-width: 400px) {
+  #inputLastname {
+    width: 330px;
+  }
+}
+
+#inputEmail4, #inputPassword4, #inputRe-Password4, #inputAddress, #inputAddress2 {
+  width: 330px;
+}
+
+hr {
+  border: 5px solid green;
+  border-radius: 2px;
+  margin: 0%;
+  width: 500px;
+}
